@@ -1,0 +1,33 @@
+@ECHO off
+title FoozBallKing Bot - Admin Only Module Terminal
+node AdminOnlyModule.js
+node AdminOnlyModule.js
+node AdminOnlyModule.js
+node AdminOnlyModule.js
+node AdminOnlyModule.js
+node AdminOnlyModule.js
+node AdminOnlyModule.js
+node AdminOnlyModule.js
+node AdminOnlyModule.js
+node AdminOnlyModule.js
+node AdminOnlyModule.js
+node AdminOnlyModule.js
+node AdminOnlyModule.js
+node AdminOnlyModule.js
+node AdminOnlyModule.js
+node AdminOnlyModule.js
+node AdminOnlyModule.js
+node AdminOnlyModule.js
+node AdminOnlyModule.js
+node AdminOnlyModule.js
+node AdminOnlyModule.js
+node AdminOnlyModule.js
+node AdminOnlyModule.js
+node AdminOnlyModule.js
+node AdminOnlyModule.js
+node AdminOnlyModule.js
+node AdminOnlyModule.js
+node AdminOnlyModule.js
+node AdminOnlyModule.js
+node AdminOnlyModule.js
+pause

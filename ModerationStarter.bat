@@ -1,0 +1,33 @@
+@ECHO off
+title FoozBallKing Bot - Moderation Module Terminal
+node ModerationModule.js
+node ModerationModule.js
+node ModerationModule.js
+node ModerationModule.js
+node ModerationModule.js
+node ModerationModule.js
+node ModerationModule.js
+node ModerationModule.js
+node ModerationModule.js
+node ModerationModule.js
+node ModerationModule.js
+node ModerationModule.js
+node ModerationModule.js
+node ModerationModule.js
+node ModerationModule.js
+node ModerationModule.js
+node ModerationModule.js
+node ModerationModule.js
+node ModerationModule.js
+node ModerationModule.js
+node ModerationModule.js
+node ModerationModule.js
+node ModerationModule.js
+node ModerationModule.js
+node ModerationModule.js
+node ModerationModule.js
+node ModerationModule.js
+node ModerationModule.js
+node ModerationModule.js
+node ModerationModule.js
+pause

@@ -1,0 +1,61 @@
+```Markdown
+< FoozBallKing Bot Help >
+
+[Version]: v3 Build 1 (Complete rebuild)
+[Prefix]: |
+[Note]: Always add the prefix BEFORE the command's word itself!
+# * means "Work In Progress"
+
+< Main >
+
+[guilds]: Lists the guild number that the bot is currently in!
+[say]: Makes the bot talk! Make it appropriate, guys!
+[botinfox]: Uh, a bot in a fox? xD just kidding. Just bot info. I hope...*
+[help]: This command, obviously...
+[botspecs]: The bot's specifications? I guess...?*
+[uptime]: Shows the bot's uptime!
+
+# Main Module
+
+< Fun* >
+
+[8ball]: Meet the MAGICAL 8BALL!!!
+
+# Fun module
+
+< Moderation >
+
+# Requires the Moderator role!
+# The "-" symbol means "Requires the Admin role!"
+
+[kick]: Kicks members! Example: "|kick @user#0000 Spamming."
+[ban]: Bans members! Example: "|ban @user#0000 YOU HAVE BEEN BANNED :D"
+[announce]: -Announce in your server! Requires the bot to have the "Send Messages" permission.*
+# Moderation Module
+
+< Music >
+
+# This module was made by TheDemise, his NPM module (also the one used for FBK Bot) is called "discord.js-musicbot-addon"! Check it out!
+# Type "|musichelp" for the help!
+
+< Overwatch* >
+# This module was made using the API from https://overwatch-api.net
+# Original idea by Nanomotion
+
+[hero]: Usage: "|hero <hero_name>". May not have all Overwatch heroes.*
+[event]: Shows the events that happened!*
+[map]: Looks for the maps in Overwatch! Not 100% accurate.*
+[platform]: Uh... I don't know why this is here either xD*
+
+# No user stats.
+
+# Overwatch Module
+
+< Affection* >
+# New module!
+# Note: I didn't know what to call this XD
+
+# No commands yet, unfinished.
+```
+
+For more help, join https://discord.gg/xgBaPPE

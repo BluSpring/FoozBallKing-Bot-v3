@@ -1,0 +1,33 @@
+@ECHO off
+title FoozBallKing Bot - Fun Module Terminal
+node FunModule.js
+node FunModule.js
+node FunModule.js
+node FunModule.js
+node FunModule.js
+node FunModule.js
+node FunModule.js
+node FunModule.js
+node FunModule.js
+node FunModule.js
+node FunModule.js
+node FunModule.js
+node FunModule.js
+node FunModule.js
+node FunModule.js
+node FunModule.js
+node FunModule.js
+node FunModule.js
+node FunModule.js
+node FunModule.js
+node FunModule.js
+node FunModule.js
+node FunModule.js
+node FunModule.js
+node FunModule.js
+node FunModule.js
+node FunModule.js
+node FunModule.js
+node FunModule.js
+node FunModule.js
+pause

@@ -1,0 +1,36 @@
+@ECHO off
+title FoozBallKing Bot - Main Terminal
+start AdminOnlyStarter.bat
+start FunStarter.bat
+start ModerationStarter.bat
+node FBKBotv3.js
+node FBKBotv3.js
+node FBKBotv3.js
+node FBKBotv3.js
+node FBKBotv3.js
+node FBKBotv3.js
+node FBKBotv3.js
+node FBKBotv3.js
+node FBKBotv3.js
+node FBKBotv3.js
+node FBKBotv3.js
+node FBKBotv3.js
+node FBKBotv3.js
+node FBKBotv3.js
+node FBKBotv3.js
+node FBKBotv3.js
+node FBKBotv3.js
+node FBKBotv3.js
+node FBKBotv3.js
+node FBKBotv3.js
+node FBKBotv3.js
+node FBKBotv3.js
+node FBKBotv3.js
+node FBKBotv3.js
+node FBKBotv3.js
+node FBKBotv3.js
+node FBKBotv3.js
+node FBKBotv3.js
+node FBKBotv3.js
+node FBKBotv3.js
+pause

@@ -1,0 +1,6 @@
+```Markdown
+< FoozBallKing Bot v3 Admin Help >
+# Admin Module
+[eval]: Evaluation!
+# More coming soon!
+```
