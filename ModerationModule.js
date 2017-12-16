@@ -1,6 +1,5 @@
 const Discord = require("discord.js")
 const bot = new Discord.Client()
-const client = new Discord.Client()
 const fs = require('fs')
 const config = require('./config.json')
 function clean(text) {
@@ -45,9 +44,11 @@ bot.on("message", (message) => {
 			.addField('**ERROR!**', '**This server doesn\'t have the __"Admin"__ role!**')
 			message.channel.send(embed)
 		}
+		try {
 		if(message.member.roles.has(AdminRole.id)) {
 		const announcement = args.join(" ")
-		const channelannounce = member.guild.channels.find('name', 'announcements');
+		const member = message.author
+		const channelannounce = message.guild.channels.find('name', 'announcements');
 		if (!channelannounce) {
 			message.channel.send(errorNoChannel)
 		} else {
@@ -57,6 +58,9 @@ bot.on("message", (message) => {
 		} else {
 			message.channel.send(errorNoPermAdmin)
 		}
+	} catch (err) {
+		message.channel.send(err)
+	}
 	}
 	
 	if(kickBanCmd.startsWith(prefix + "kick")) {
@@ -74,6 +78,7 @@ bot.on("message", (message) => {
 			.addField('**ERROR!**', '**This server doesn\'t have the __"Moderator"__ role!**')
 			message.channel.send(embed)
 		}
+		try {
 		if(message.member.roles.has(ModRole.id)) {
 			let kickPerson = message.guild.member(message.mentions.users.first());
 			let reason = kickBanArgs.slice(1).join(" ");
@@ -85,6 +90,9 @@ bot.on("message", (message) => {
 		} else {
 			message.channel.send(errorNoPermMod)
 		}
+	} catch (err) {
+		message.channel.send(err)
+	}
 	}
 	
 	if(kickBanCmd.startsWith(prefix + "ban")) {
@@ -102,6 +110,7 @@ bot.on("message", (message) => {
 			.addField('**ERROR!**', '**This server doesn\'t have the __"Moderator"__ role!**')
 			message.channel.send(embed)
 		}
+		try {
 		if(message.member.roles.has(ModRole.id)) {
 			let kickPerson = message.guild.member(message.mentions.users.first());
 			let reason = kickBanArgs.slice(1).join(" ");
@@ -113,6 +122,9 @@ bot.on("message", (message) => {
 		} else {
 			message.channel.send(errorNoPermMod)
 		}
+	} catch (err) {
+		message.channel.send(err)
+	}
 	}
 	
 	
@@ -130,7 +142,7 @@ bot.on('guildMemberAdd', member => {
       ],
     timestamp: new Date(),
     footer: {
-      icon_url: client.user.avatarURL,
+      icon_url: bot.user.avatarURL,
       text: "© BluSpring 2017"
 	}
   }
@@ -149,7 +161,7 @@ bot.on('guildMemberRemove', member => {
       ],
     timestamp: new Date(),
     footer: {
-      icon_url: client.user.avatarURL,
+      icon_url: bot.user.avatarURL,
       text: "© BluSpring 2017"
 	}
   }
