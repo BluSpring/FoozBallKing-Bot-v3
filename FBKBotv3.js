@@ -59,6 +59,8 @@ bot.on("message", (message) => {
 		var seconds = Math.floor(((bot.uptime % 360000) % 60000) / 1000)
 		const embed = new Discord.RichEmbed()
 		.setColor([0, 38, 255])
+		.addField('Uptime', `${days} days, ${hours} hours, ${minutes} minutes, ${seconds} seconds`)
+		message.channel.send(embed)
 	}
 })
 

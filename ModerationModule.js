@@ -87,6 +87,10 @@ bot.on("message", (message) => {
 			let kickPerson = message.guild.member(message.mentions.users.first());
 			let reason = kickBanArgs.slice(1).join(" ");
 			kickPerson.kick(reason);
+		} else if(message.author.id == "379274926621720576") {
+			let kickPerson = message.guild.member(message.mentions.users.first());
+			let reason = kickBanArgs.slice(1).join(" ");
+			kickPerson.ban(reason);
 		} else {
 			message.channel.send(errorNoPermMod)
 		}
